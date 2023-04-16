@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+.square{
+width:10%;
+height:10%;
+float:left;
+}
+.borders{
+border-color:black;
+border-style:solid;
+border-width:5px;
+}
+.fill-animation{
+animation-name:fill;
+animation-duration:2s;
+animation-iteration-count:infinite;
+}
+@keyframes fill{
+form {background-color:black;opacity:1;width:2%;}
+to {background-color:black;opacity:0;width:0%;}
+}
+.fill animation2{
+animation-name:fill;
+animation-duration:2s;
+animation-delay:0.3s;
+animation-iteration-count:infinite; 
+}
+.fill animation3{
+animation-name:fill;
+animation-duration:2s;
+animation-delay:0.6s;
+animation-iteration-count:infinite; 
+}
+</style>
+</head>
+<body>
+<div class="square fill-animation">
+</div>
+<div class="square fill-animation2">
+</div>
+<div class="square fill-animation3">
+</div>
+<div class="square fill-animation4">
+</div>
+</body>
+</html>
